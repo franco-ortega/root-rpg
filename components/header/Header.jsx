@@ -5,10 +5,12 @@ import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <div className={styles.Header}>
-      <Image src={RootArtwork} alt='' />
-      <Nav />
-    </div>
+    <header className={styles.Header}>
+      <div>
+        <Image src={RootArtwork} alt='' />
+        <Nav />
+      </div>
+    </header>
   );
 };
 
