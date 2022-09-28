@@ -7,9 +7,20 @@
   list-style-type: none;
 }
 
+:root {
+  --bgcolor-hue: 23;
+  --bgcolor-sat: 63%;
+  --bgcolor-lit: 52%;
+  --bgcolor: var(--bgcolor-hue), var(--bgcolor-sat), var(--bgcolor-lit);
+  --bgcolor-primary-opacity: 1;
+  --bgcolor-primary: hsl(var(--bgcolor), var(--bgcolor-primary-opacity));
+  --bgcolor-nav-opacity: 0.5;
+  --bgcolor-nav: hsl(var(--bgcolor), var(--bgcolor-nav-opacity));
+}
+
 html,
 body {
-  background-color: hsl(23, 63%, 52%);
+  background-color: var(--bgcolor-primary);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
