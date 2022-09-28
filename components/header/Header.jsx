@@ -8,13 +8,6 @@ const Header = () => {
     <div className={styles.Header}>
       <Image src={RootArtwork} alt='' />
       <Nav />
-      {/* <nav>
-        <ul>
-          <li>Playbooks (classes)</li>
-          <li>Players Guide</li>
-          <li>Drives</li>
-        </ul>
-      </nav> */}
     </div>
   );
 };

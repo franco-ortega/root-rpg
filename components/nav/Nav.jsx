@@ -4,9 +4,9 @@ const Nav = () => {
   return (
     <nav className={styles.Nav}>
       <ul>
+        <li>Drives</li>
         <li>Playbooks</li>
         <li>Players Guide</li>
-        <li>Drives</li>
       </ul>
     </nav>
   );

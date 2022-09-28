@@ -1,4 +1,8 @@
 .Header {
-  border: 1rem solid black;
+  border: 0.75rem solid black;
   position: relative;
+}
+
+.Header > span {
+  display: block !important;
 }
