@@ -1,10 +1,17 @@
-const Character = () => {
+const Character = ({ drives, nature, connections }) => {
   return (
     <div>
       <h2>Adventurer</h2>
-      <section>Drives (2): DriveOne, DriveTwo, DriveThree, DriveFour</section>
-      <section>Nature (1): NatureOne, NatureTwo</section>
-      <section>Connections (2): ConnectOne, ConnectTwo</section>
+      <section>
+        Drives (pick 2): {drives[0].title}, {drives[1].title} {drives[2].title},{' '}
+        {drives[3].title}
+      </section>
+      <section>
+        Nature (pick 1): {nature[0].title}, {nature[1].title}
+      </section>
+      <section>
+        Connections (both): {connections[0].title}, {connections[1].title}
+      </section>
     </div>
   );
 };
