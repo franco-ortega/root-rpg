@@ -6,9 +6,10 @@ const CharacterList = () => {
     <div>
       <h1>Characters</h1>
       <Character
-        drives={playbookData.adventurer.drives}
-        nature={playbookData.adventurer.nature}
-        connections={playbookData.adventurer.connections}
+        character={playbookData[0].character}
+        drives={playbookData[0].drives}
+        nature={playbookData[0].nature}
+        connections={playbookData[0].connections}
       />
     </div>
   );

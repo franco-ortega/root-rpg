@@ -1,5 +1,6 @@
-{
-  "adventurer": {
+[
+  {
+    "character": "Adventurer",
     "drives": [
       {
         "title": "Ambition",
@@ -41,4 +42,4 @@
       }
     ]
   }
-}
+]

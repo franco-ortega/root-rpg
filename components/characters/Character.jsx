@@ -1,7 +1,7 @@
-const Character = ({ drives, nature, connections }) => {
+const Character = ({ character, drives, nature, connections }) => {
   return (
     <div>
-      <h2>Adventurer</h2>
+      <h2>{character}</h2>
       <section>
         Drives (pick 2): {drives[0].title}, {drives[1].title} {drives[2].title},{' '}
         {drives[3].title}
