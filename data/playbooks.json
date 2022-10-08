@@ -1,0 +1,44 @@
+{
+  "adventurer": {
+    "drives": [
+      {
+        "title": "Ambition",
+        "text": "Advance when you increase your reputation with any faction."
+      },
+      {
+        "title": "Clean Paws",
+        "text": "Advance when you accomplish an illicit, criminal goal while maintaining a believable veneer of innocence."
+      },
+      {
+        "title": "Principles",
+        "text": "Advance when you express or embody your moral principles at great cost to yourself or your allies."
+      },
+      {
+        "title": "Justice",
+        "text": "Advance when you achieve justice for someone wronged by a powerful, wealthy, or high-status individual."
+      }
+    ],
+    "nature": [
+      {
+        "title": "Extrovert",
+        "text": "Clear your exhaustion track when you share a moment of real warmth, friendship, or enjoyment with someone."
+      },
+      {
+        "title": "Peacemaker",
+        "text": "Clear your exhaustion track when you resolve a dangerous conflict nonviolently."
+      }
+    ],
+    "connections": [
+      {
+        "title": "Partner",
+        "text": "_______ and I fought alongside each other to defend a clearing from a factions advances...but we failed. Why did we defend the clearing? Why did we fail? Who defeated us?",
+        "benefit": "When you fill in this connection, you each mark 2-prestige with the faction you helped, and mark 2-notoriety with the faction you harmed. During play, if you are spotted together, then any prestige or notoriety gains withthosefactionsaredoubledforthetwo of you."
+      },
+      {
+        "title": "Friend",
+        "text": "I traveled with _______ for a time right after I became a vagabond. They helped keep me safe and showed me the Woodland. What keepsake did I gift them?",
+        "benefit": "When you help them, you can mark 2-exhaustion to give a +2, instead of 1-exhaustion for a +1."
+      }
+    ]
+  }
+}
