@@ -33,12 +33,55 @@
       {
         "title": "Partner",
         "text": "_______ and I fought alongside each other to defend a clearing from a factions advances...but we failed. Why did we defend the clearing? Why did we fail? Who defeated us?",
-        "benefit": "When you fill in this connection, you each mark 2-prestige with the faction you helped, and mark 2-notoriety with the faction you harmed. During play, if you are spotted together, then any prestige or notoriety gains withthosefactionsaredoubledforthetwo of you."
+        "benefit": "When you fill in this connection, you each mark 2-prestige with the faction you helped, and mark 2-notoriety with the faction you harmed. During play, if you are spotted together, then any prestige or notoriety gains with those factions are doubled for the two of you."
       },
       {
         "title": "Friend",
         "text": "I traveled with _______ for a time right after I became a vagabond. They helped keep me safe and showed me the Woodland. What keepsake did I gift them?",
         "benefit": "When you help them, you can mark 2-exhaustion to give a +2, instead of 1-exhaustion for a +1."
+      }
+    ]
+  },
+  {
+    "character": "Arbiter",
+    "drives": [
+      {
+        "title": "Justice",
+        "text": "Advance when you achieve justice for someone wronged by a powerful, wealthy, or high-status individual."
+      },
+      {
+        "title": "Principles",
+        "text": "Advance when you express or embody your moral principles at great cost to yourself or your allies."
+      },
+      {
+        "title": "Loyalty",
+        "text": "You're loyal to someone; name them. Advance when you obey their order at a great cost to yourself."
+      },
+      {
+        "title": "Protection",
+        "text": "Name your ward. Advance when you protect them from significant danger, or when time passes and your ward is safe."
+      }
+    ],
+    "nature": [
+      {
+        "title": "Defender",
+        "text": "Clear your exhaustion track when you put yourself in harm’s way to defend someone against injustice or dire threat."
+      },
+      {
+        "title": "Punisher",
+        "text": "Clear your exhaustion track when you tell a powerful or dangerous villain to their face that you will punish them."
+      }
+    ],
+    "connections": [
+      {
+        "title": "Protector",
+        "text": "I once protected _______ from a mortal blow during a fight, and I would do it again. Why?",
+        "benefit": "When they are in reach, mark exhaustion to take a blow meant for them. If you do, take +1 ongoing to weapon moves for the rest of the scene."
+      },
+      {
+        "title": "Partner",
+        "text": "_______ and I together helped a faction take control of a clearing, and share responsibility for it.",
+        "benefit": "When you fill in this connection, you each mark 2-prestige with the faction you helped, and mark 2-notoriety with the faction you harmed. During play, if you are spotted together,then any prestige or notoriety gains with those factions are doubled for the two of you."
       }
     ]
   }

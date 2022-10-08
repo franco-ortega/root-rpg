@@ -1,6 +1,6 @@
 const Character = ({ character, drives, nature, connections }) => {
   return (
-    <div>
+    <li>
       <h2>{character}</h2>
       <section>
         Drives (pick 2): {drives[0].title}, {drives[1].title} {drives[2].title},{' '}
@@ -12,7 +12,7 @@ const Character = ({ character, drives, nature, connections }) => {
       <section>
         Connections (both): {connections[0].title}, {connections[1].title}
       </section>
-    </div>
+    </li>
   );
 };
 

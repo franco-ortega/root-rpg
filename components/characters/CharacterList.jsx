@@ -5,12 +5,17 @@ const CharacterList = () => {
   return (
     <div>
       <h1>Characters</h1>
-      <Character
-        character={playbookData[0].character}
-        drives={playbookData[0].drives}
-        nature={playbookData[0].nature}
-        connections={playbookData[0].connections}
-      />
+      <ul>
+        {playbookData.map((playbook, i) => (
+          <Character
+            key={i}
+            character={playbook.character}
+            drives={playbook.drives}
+            nature={playbook.nature}
+            connections={playbook.connections}
+          />
+        ))}
+      </ul>
     </div>
   );
 };
