@@ -1,8 +1,52 @@
+@use '../../styles/scss/' as *;
+
 .Character {
   border: solid .1rem black;
   border-radius: .5rem;
 
+  width: 90%;
+  margin-inline: auto;
+  padding: .25rem;
+
   h2 {
     font-size: 1.25rem;
+  }
+
+  h2, ul {
+    padding-left: .25rem;
+  }
+
+  hr {
+    border: solid .075rem hsl(0, 0%, 0%, .75);
+    border-radius: .5rem;
+  }
+  
+  ul {
+    padding-bottom: .25rem;
+    li {
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+
+
+  @include media-query(tablet) {
+    background-color: pink;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 10fr;
+    align-items: center;
+
+    hr {
+      transform: rotate(90deg);
+      width: 3rem;
+    }
+  
+
+    ul {
+      display: grid;
+    }
   }
 }
