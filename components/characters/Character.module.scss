@@ -1,0 +1,57 @@
+@use '../../styles/scss/' as *;
+
+.Character {
+  border: solid .1rem black;
+  border-radius: .5rem;
+
+  width: 90%;
+  margin-inline: auto;
+  padding: .25rem;
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h2, ul {
+    padding-left: .25rem;
+    // background-color: lavender;
+  }
+
+  hr {
+    border: solid .075rem hsl(0, 0%, 0%, .75);
+    border-radius: .5rem;
+  }
+  
+  ul {
+    padding-bottom: .25rem;
+
+    li {
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+
+
+  @include media-query(tablet) {
+    // background-color: pink;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    
+    align-items: center;
+    justify-content: flex-start;
+
+    hr {
+      transform: rotate(90deg);
+      width: 3rem;
+    }
+  
+
+    ul {
+      // background-color: red;
+      // display: grid;
+    }
+  }
+}

@@ -65,7 +65,7 @@
     "nature": [
       {
         "title": "Defender",
-        "text": "Clear your exhaustion track when you put yourself in harm’s way to defend someone against injustice or dire threat."
+        "text": "Clear your exhaustion track when you put yourself in harm's way to defend someone against injustice or dire threat."
       },
       {
         "title": "Punisher",
@@ -162,7 +162,7 @@
       {
         "title": "Watcher",
         "text": "I was tricked, conned, or deceived by _______ once. Why do I choose to continue working with them?",
-        "benefit": "When you figure them out, you always hold 1, even on a miss. When you plead with them  to go along with you, you can let them clear 2-exhaustion instead of 1."
+        "benefit": "When you figure them out, you always hold 1, even on a miss. When you plead with them to go along with you, you can let them clear 2-exhaustion instead of 1."
       },
       {
         "title": "Protector",
@@ -297,6 +297,92 @@
         "title": "Friend",
         "text": "_______ sprang to get me out of holding, whether they bailed me out or rescued me. I owe them.",
         "benefit": "When you help them, you can mark 2-exhaustion to give a +2, instead of 1-exhaustion for a +1."
+      }
+    ]
+  },
+  {
+    "character": "Tinker",
+    "drives": [
+      {
+        "title": "Greed",
+        "text": "Advance when you secure a serious payday or treasure."
+      },
+      {
+        "title": "Ambition",
+        "text": "Advance when you increase your reputation with any faction."
+      },
+      {
+        "title": "Revenge",
+        "text": "Name your foe. Advance when you cause significant harm to them or their interests."
+      },
+      {
+        "title": "Protection",
+        "text": "Name your ward. Advance when you protect them from significant danger, or when time passes and your ward is safe."
+      }
+    ],
+    "nature": [
+      {
+        "title": "Perfectionist",
+        "text": "Clear your exhaustion track when you replace someone else's existing tool or resource with something truly great."
+      },
+      {
+        "title": "Radical",
+        "text": "Clear your exhaustion track when you espouse dangerous ideas to the wrong audience."
+      }
+    ],
+    "connections": [
+      {
+        "title": "Professional",
+        "text": "_______  and I have been working together well for a while. We read each other's moves easily.",
+        "benefit": "If you share information with them after reading a tense situation, you both benefit from the +1 for acting on the answers. If you help them while they attempt a roguish feat, you gain choices on the help move as if you had marked 2-exhaustion when you mark 1-exhaustion."
+      },
+      {
+        "title": "Family",
+        "text": "_______ and I had each other's back when we were run out of a clearing because our natures got out of hand.",
+        "benefit": "When you help them fulfill their nature, you both clear your exhaustion track."
+      }
+    ]
+  },
+  {
+    "character": "Vagrant",
+    "drives": [
+      {
+        "title": "Chaos",
+        "text": "Advance when you topple a tyrannical or dangerously overbearing figure or order."
+      },
+      {
+        "title": "Thrills",
+        "text": "Advance when you escape from certain death or incarceration."
+      },
+      {
+        "title": "Clean Paws",
+        "text": "Advance when you accomplish an illicit, criminal goal while maintaining a believable veneer of innocence."
+      },
+      {
+        "title": "Wanderlust",
+        "text": "Advance when you finish a journey to a clearing."
+      }
+    ],
+    "nature": [
+      {
+        "title": "Glutton",
+        "text": "Clear your exhaustion track when you overindulge on vices like drink, food, and gambling."
+      },
+      {
+        "title": "Hustler",
+        "text": "Clear your exhaustion track when you try to spring a con on a powerful or dangerous mark."
+      }
+    ],
+    "connections": [
+      {
+        "title": "Family",
+        "text": "After _______ and I pulled off an impressive heist and stole something very valuable from a powerful faction, my bad choices landed me in dire straits. But they bailed me out, and we've been close ever since.",
+        "benefit": "When you help them fulfill their nature, you both clear your exhaustion track."
+      },
+      {
+        "title": "Watcher",
+        "text": "_______ saw through one of my cons, and turned it back on me. How? Why did we forgive each other?",
+        "benefit": "When you figure them out, you always hold 1, even on a miss. When you plead with them to go along with you, you can let them clear 2-exhaustion instead of 1."
       }
     ]
   }
