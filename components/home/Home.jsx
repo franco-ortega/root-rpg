@@ -1,12 +1,5 @@
-import React from 'react';
-import CharacterList from '../characters/CharacterList';
-
 const Home = () => {
-  return (
-    <div>
-      <CharacterList />
-    </div>
-  );
+  return <div>Home</div>;
 };
 
 export default Home;

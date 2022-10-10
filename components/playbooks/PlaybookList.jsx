@@ -1,14 +1,13 @@
-import Character from './Character';
+import Playbook from '../playbooks/Playbook';
 import playbookData from '../../data/playbooks.json';
-import styles from './CharacterList.module.scss'
+import styles from './PlaybookList.module.scss';
 
-const CharacterList = () => {
+const PlaybookList = () => {
   return (
-    <div className={styles.CharacterList}>
-      <h1>Characters</h1>
+    <div className={styles.PlaybookList}>
       <ul>
         {playbookData.map((playbook, i) => (
-          <Character
+          <Playbook
             key={i}
             character={playbook.character}
             drives={playbook.drives}
@@ -21,4 +20,4 @@ const CharacterList = () => {
   );
 };
 
-export default CharacterList;
+export default PlaybookList;

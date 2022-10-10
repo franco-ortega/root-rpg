@@ -1,0 +1,11 @@
+.PlaybookList {
+  width: fit-content;
+  margin-inline: auto;
+
+  & > ul {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
