@@ -4,7 +4,9 @@
   border: solid 0.1rem black;
   border-radius: 0.5rem;
 
-  width: 90%;
+  background-color: hsl(39, 100%, 50%, 0.25);
+
+  width: 100%;
   margin-inline: auto;
   padding: 0.25rem;
 
@@ -15,11 +17,11 @@
   h2,
   ul {
     padding-left: 0.25rem;
-    // background-color: lavender;
   }
 
   hr {
-    border: solid 0.075rem hsl(0, 0%, 0%, 0.75);
+    background-color: hsl(0, 0%, 0%);
+    border: solid 0.05rem hsl(0, 0%, 0%, 0.75);
     border-radius: 0.5rem;
   }
 
@@ -34,22 +36,23 @@
   }
 
   @include media-query(tablet) {
-    // background-color: pink;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr auto;
+    padding: 0.35rem;
 
+    display: grid;
+    grid-template-columns: 3fr 1fr 8fr;
     align-items: center;
-    justify-content: flex-start;
 
     hr {
       transform: rotate(90deg);
-      width: 3rem;
+      border: solid 0.05rem hsl(0, 0%, 0%, 0.75);
+    }
+
+    h2 {
+      font-size: 1.75rem;
     }
 
     ul {
-      // background-color: red;
-      // display: grid;
+      padding: 0;
     }
   }
 }
