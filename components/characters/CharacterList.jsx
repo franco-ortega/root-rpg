@@ -1,9 +1,10 @@
 import Character from './Character';
 import playbookData from '../../data/playbooks.json';
+import styles from './CharacterList.module.scss'
 
 const CharacterList = () => {
   return (
-    <div>
+    <div className={styles.CharacterList}>
       <h1>Characters</h1>
       <ul>
         {playbookData.map((playbook, i) => (

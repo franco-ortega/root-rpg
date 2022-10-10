@@ -14,6 +14,7 @@
 
   h2, ul {
     padding-left: .25rem;
+    background-color: lavender;
   }
 
   hr {
@@ -23,6 +24,7 @@
   
   ul {
     padding-bottom: .25rem;
+
     li {
       span {
         text-decoration: underline;
@@ -34,10 +36,12 @@
 
   @include media-query(tablet) {
     background-color: pink;
-    width: fit-content;
+    width: 100%;
     display: grid;
-    grid-template-columns: 2.5fr 1fr 10fr;
+    grid-template-columns: 2fr 1fr auto;
+    
     align-items: center;
+    justify-content: flex-start;
 
     hr {
       transform: rotate(90deg);
@@ -46,7 +50,8 @@
   
 
     ul {
-      display: grid;
+      background-color: red;
+      // display: grid;
     }
   }
 }
