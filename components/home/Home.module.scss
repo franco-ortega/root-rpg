@@ -1,27 +1,19 @@
 @use '../../styles/scss/' as *;
 
-.Moves {
+.Home {
   @extend %page-layout;
-
-  // overflow: auto;
 
   h1 {
     @extend %page-title;
   }
 
-  p {
-    max-width: var(--list-max-width);
-    margin-inline: var(--list-margin-inline);
-    text-align: left;
-  }
-
-  hr {
-    display: none;
-  }
-
   ul {
     @extend %list-layout;
     @extend %display-column-1;
+
+    hr {
+      display: none;
+    }
 
     li {
       span {

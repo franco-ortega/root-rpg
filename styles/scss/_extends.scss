@@ -7,6 +7,12 @@
   }
 }
 
+%page-title {
+  font-family: var(--page-title-font);
+  font-size: var(--page-title-size);
+  letter-spacing: var(--page-title-spacing);
+}
+
 %list-layout {
   max-width: var(--list-max-width);
   margin-inline: var(--list-margin-inline);

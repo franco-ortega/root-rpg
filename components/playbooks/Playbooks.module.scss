@@ -2,4 +2,8 @@
 
 .Playbooks {
   @extend %page-layout;
+
+  h1 {
+    @extend %page-title;
+  }
 }
