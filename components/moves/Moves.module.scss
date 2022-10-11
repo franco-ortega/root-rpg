@@ -2,8 +2,7 @@
 
 .Moves {
   @extend %page-layout;
-
-  // overflow: auto;
+  @extend %text-regular;
 
   h1 {
     @extend %page-title;
