@@ -1,5 +1,5 @@
 .PlaybookList {
-  width: fit-content;
+  max-width: min(40rem, 90%);
   margin-inline: auto;
 
   & > ul {

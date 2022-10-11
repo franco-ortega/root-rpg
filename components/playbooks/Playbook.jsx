@@ -1,10 +1,8 @@
-import styles from './Playbook.module.scss';
+import TitleAndText from '../info/TitleAndText';
 
 const Playbook = ({ character, drives, nature, connections }) => {
   return (
-    <li className={styles.Playbook}>
-      <h2>{character}</h2>
-      <hr />
+    <TitleAndText title={character}>
       <ul>
         <li>
           <span>Drives (2)</span>: {drives[0].title}, {drives[1].title},{' '}
@@ -18,7 +16,7 @@ const Playbook = ({ character, drives, nature, connections }) => {
           {connections[1].title}
         </li>
       </ul>
-    </li>
+    </TitleAndText>
   );
 };
 
