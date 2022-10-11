@@ -2,9 +2,14 @@
 
 .Home {
   @extend %page-layout;
+  @extend %text-regular;
 
   h1 {
     @extend %page-title;
+  }
+
+  & > p {
+    @extend %intro-text;
   }
 
   ul {

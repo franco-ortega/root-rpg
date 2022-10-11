@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className={styles.Home}>
       <h1>Root RPG</h1>
-      <p>These are some terms to help you get started.</p>
+      <p>These are some terms to help you find your footing.</p>
       <ul>
         <TitleAndText>
           <span data-term>Drives</span> - These are the motivations for your

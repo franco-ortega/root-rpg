@@ -6,8 +6,7 @@
   position: absolute;
   inset: 0 0 0 0;
 
-  @extend %nav-font;
-  font-size: var(--nav-font-size);
+  @extend %nav-text;
 
   ul:first-child {
     position: absolute;

@@ -9,10 +9,8 @@
     @extend %page-title;
   }
 
-  p {
-    max-width: var(--list-max-width);
-    margin-inline: var(--list-margin-inline);
-    text-align: left;
+  & > p {
+    @extend %intro-text;
   }
 
   hr {

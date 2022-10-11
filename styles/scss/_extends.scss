@@ -1,8 +1,7 @@
 %page-layout {
   padding-block: 0.5rem 1rem;
 
-  h1,
-  & > p {
+  h1 {
     text-align: center;
   }
 }
@@ -26,42 +25,49 @@
 }
 
 %font-lora-regular {
-  font-family: var(--page-text-font);
+  font-family: 'Lora', serif;
   font-weight: 400;
 }
 
 %font-lora-italic {
-  font-family: var(--page-text-font);
+  font-family: 'Lora', serif;
   font-style: italic;
   font-weight: 400;
 }
 
 %font-lora-medium {
-  font-family: var(--page-text-font);
+  font-family: 'Lora', serif;
   font-weight: 500;
 }
 
 %font-lora-bold {
-  font-family: var(--page-text-font);
+  font-family: 'Lora', serif;
   font-weight: 600;
 }
 
-%nav-font {
+%nav-text {
   @extend %font-lora-medium;
+  font-size: var(--nav-font-size);
 }
 
-%text-font-regular {
+%intro-text {
+  width: fit-content;
+  max-width: min(40rem, 90%);
+  margin-inline: auto;
+}
+
+%text-regular {
   @extend %font-lora-regular;
 }
 
-%text-font-italic {
+%text-italic {
   @extend %font-lora-italic;
 }
 
-%text-font-medium {
+%text-medium {
   @extend %font-lora-medium;
 }
 
-%text-font-bold {
+%text-bold {
   @extend %font-lora-bold;
 }

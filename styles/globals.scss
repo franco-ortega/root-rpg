@@ -30,8 +30,6 @@
   --page-title-size: 2.5rem;
   --page-title-spacing: 0.2rem;
 
-  --page-text-font: 'Lora', serif;
-
   @include media-query(tablet) {
     --nav-font-size: 1.5rem;
   }
