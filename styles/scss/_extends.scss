@@ -48,6 +48,7 @@
 %nav-text {
   @extend %font-lora-medium;
   font-size: var(--nav-font-size);
+  letter-spacing: 0.05rem;
 }
 
 %intro-text {

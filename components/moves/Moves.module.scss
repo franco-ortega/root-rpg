@@ -27,7 +27,7 @@
         }
 
         &[data-option] {
-          font-style: italic;
+          @extend %text-italic;
         }
       }
     }

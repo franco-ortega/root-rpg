@@ -4,7 +4,7 @@
   padding-left: 0.25rem;
 
   span {
-    text-decoration: underline;
+    @extend %text-medium;
   }
 
   @include media-query(tablet) {

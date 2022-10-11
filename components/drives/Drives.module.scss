@@ -4,11 +4,68 @@
   @extend %page-layout;
   @extend %text-regular;
 
-  h1 {
-    @extend %page-title;
+  & > div {
+    max-width: min(35rem, 70%);
+    margin-inline: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      @extend %page-title;
+    }
+
+    img {
+      width: 3.75rem !important;
+    }
+
+    & > div > p {
+      display: none;
+    }
   }
 
   & > p {
     @extend %intro-text;
+    width: 85%;
+  }
+
+  @include media-query(small) {
+    & > div {
+      max-width: fit-content;
+
+      h1 {
+        margin-inline: 1.5rem;
+      }
+
+      img {
+        width: 4.75rem !important;
+      }
+    }
+    & > p {
+      width: fit-content;
+    }
+  }
+
+  @include media-query(tablet) {
+    & > div {
+      max-width: fit-content;
+      h1 {
+        padding-bottom: 0.5rem;
+      }
+
+      img {
+        width: 7rem !important;
+      }
+
+      & > div > p {
+        display: block;
+        padding-left: 1rem;
+      }
+    }
+
+    & > p {
+      display: none;
+    }
   }
 }
