@@ -1,3 +1,12 @@
+%page-layout {
+  padding-block: 0.5rem 1rem;
+
+  h1,
+  & > p {
+    text-align: center;
+  }
+}
+
 %list-layout {
   max-width: var(--list-max-width);
   margin-inline: var(--list-margin-inline);

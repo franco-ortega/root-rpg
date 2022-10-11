@@ -1,8 +1,5 @@
-.Moves {
-  padding-block: 0.5rem 1rem;
+@use '../../styles/scss/' as *;
 
-  h1,
-  & > p {
-    text-align: center;
-  }
+.Moves {
+  @extend %page-layout;
 }
