@@ -1,6 +1,6 @@
 @use '../../styles/scss/' as *;
 
-.Playbook {
+.TitleAndText {
   border: solid 0.1rem black;
   border-radius: 0.5rem;
 
@@ -10,12 +10,10 @@
   margin-inline: auto;
   padding: 0.25rem;
 
+  overflow: hidden;
+
   h2 {
     font-size: 1.25rem;
-  }
-
-  h2,
-  ul {
     padding-left: 0.25rem;
   }
 
@@ -25,26 +23,35 @@
     border-radius: 0.5rem;
   }
 
+  // padding for the children
+  p,
   ul {
-    padding-bottom: 0.25rem;
+    padding-left: 0.25rem;
+  }
 
-    li {
-      span {
-        text-decoration: underline;
-      }
-    }
+  span {
+    text-decoration: underline;
   }
 
   @include media-query(tablet) {
     padding: 0.35rem;
+    flex-basis: 4.5rem;
 
     display: grid;
     grid-template-columns: 3fr 1fr 8fr;
     align-items: center;
 
+    // place first item in each row at the end of its column
+    & > *:first-child {
+      text-align: end;
+      position: relative;
+      left: 15%;
+    }
+
     hr {
       transform: rotate(90deg);
       border: solid 0.05rem hsl(0, 0%, 0%, 0.75);
+      width: 140%;
     }
 
     h2 {
@@ -53,6 +60,10 @@
 
     ul {
       padding: 0;
+
+      li {
+        // padding-left: 0.25rem;
+      }
     }
   }
 }

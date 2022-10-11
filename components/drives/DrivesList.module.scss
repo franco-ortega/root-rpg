@@ -1,0 +1,8 @@
+.DrivesList {
+  max-width: min(40rem, 90%);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+}

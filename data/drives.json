@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Ambition",
+    "text": "Advance when you increase your reputation with any faction."
+  },
+  {
+    "title": "Chaos",
+    "text": "Advance when you topple a tyrannical or dangerously overbearing figure or order."
+  },
+  {
+    "title": "Clean Paws",
+    "text": "Advance when you accomplish an illicit, criminal goal while maintaining a believable veneer of innocence."
+  },
+  {
+    "title": "Crime",
+    "text": "Advance when you illicitly scorea significant prize or pull off an illegal caper against impressive odds."
+  },
+  {
+    "title": "Discovery",
+    "text": "Advance when you encounter a new wonder or ruin in the forests."
+  },
+  {
+    "title": "Freedom",
+    "text": "Advance when you free a group of denizens from oppression."
+  },
+  {
+    "title": "Greed",
+    "text": "Advance when you secure a serious payday or treasure."
+  },
+  {
+    "title": "Infamy",
+    "text": "Advance when you decrease your reputation with any faction."
+  },
+  {
+    "title": "Justice",
+    "text": "Advance when you achieve justice for someone wronged by a powerful, wealthy, or high-status individual."
+  },
+  {
+    "title": "Loyalty",
+    "text": "You're loyal to someone; name them. Advance when you obey their order at a great cost to yourself."
+  },
+  {
+    "title": "Principles",
+    "text": "Advance when you express or embody your moral principles at great cost to yourself or your allies."
+  },
+  {
+    "title": "Protection",
+    "text": "Name your ward. Advance when you protect them from significant danger, or when time passes and your ward is safe."
+  },
+  {
+    "title": "Revenge",
+    "text": "Name your foe. Advance when you cause significant harm to them or their interests."
+  },
+  {
+    "title": "Thrills",
+    "text": "Advance when you escape from certain death or incarceration."
+  },
+  {
+    "title": "Wanderlust",
+    "text": "Advance when you finish a journey to a clearing."
+  }
+]
