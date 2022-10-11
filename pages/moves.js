@@ -1,3 +1,5 @@
+import Moves from '../components/moves/Moves';
+
 export default function MovesPage() {
-  return <div>Moves</div>;
+  return <Moves />;
 }
