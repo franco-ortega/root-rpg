@@ -1,11 +1,6 @@
-.PlaybookList {
-  max-width: min(40rem, 90%);
-  margin-inline: auto;
+@use '../../styles/scss/' as *;
 
-  & > ul {
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
+.PlaybookList {
+  @extend %list-layout;
+  @extend %display-column-1;
 }

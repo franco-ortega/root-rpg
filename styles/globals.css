@@ -17,6 +17,10 @@
   --bgcolor-primary: hsl(var(--bgcolor), var(--bgcolor-primary-opacity));
   --bgcolor-nav-opacity: 0.75;
   --bgcolor-nav: hsl(var(--bgcolor), var(--bgcolor-nav-opacity));
+
+  --list-max-width: min(40rem, 90%);
+  --list-margin-inline: auto;
+  --list-padding-top: 1rem;
 }
 
 html,

@@ -14,10 +14,10 @@ const Nav = () => {
           <Link href='drives'>Drives</Link>
         </li>
         <li>
-          <Link href='playbooks'>Playbooks</Link>
+          <Link href='moves'>Moves</Link>
         </li>
         <li>
-          <Link href='players-guide'>Players Guide</Link>
+          <Link href='playbooks'>Playbooks</Link>
         </li>
       </ul>
     </nav>
