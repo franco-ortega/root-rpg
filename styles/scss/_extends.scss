@@ -45,3 +45,23 @@
   font-family: var(--page-text-font);
   font-weight: 600;
 }
+
+%nav-font {
+  @extend %font-lora-medium;
+}
+
+%text-font-regular {
+  @extend %font-lora-regular;
+}
+
+%text-font-italic {
+  @extend %font-lora-italic;
+}
+
+%text-font-medium {
+  @extend %font-lora-medium;
+}
+
+%text-font-bold {
+  @extend %font-lora-bold;
+}

@@ -6,8 +6,8 @@
   position: absolute;
   inset: 0 0 0 0;
 
-  @extend %font-lora-medium;
-  font-size: 1.25rem;
+  @extend %nav-font;
+  font-size: var(--nav-font-size);
 
   ul:first-child {
     position: absolute;
@@ -34,6 +34,5 @@
   }
 
   @include media-query(tablet) {
-    font-size: 1.5rem;
   }
 }

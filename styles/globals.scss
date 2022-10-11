@@ -1,3 +1,5 @@
+@use '../styles/scss/' as *;
+
 *,
 *::before,
 *::after {
@@ -22,11 +24,17 @@
   --list-margin-inline: auto;
   --list-padding-top: 1rem;
 
+  --nav-font-size: 1.25rem;
+
   --page-title-font: 'Emilys Candy', cursive;
   --page-title-size: 2.5rem;
   --page-title-spacing: 0.2rem;
 
   --page-text-font: 'Lora', serif;
+
+  @include media-query(tablet) {
+    --nav-font-size: 1.5rem;
+  }
 }
 
 html,
