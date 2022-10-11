@@ -1,8 +1,14 @@
-.Playbooks {
-  padding-block: 0.5rem 1rem;
+@use '../../styles/scss/' as *;
 
-  h1,
+.Playbooks {
+  @extend %page-layout;
+  @extend %text-regular;
+
+  h1 {
+    @extend %page-title;
+  }
+
   & > p {
-    text-align: center;
+    @extend %intro-text;
   }
 }

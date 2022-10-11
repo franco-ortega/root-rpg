@@ -1,0 +1,42 @@
+@use '../../styles/scss/' as *;
+
+.Moves {
+  @extend %page-layout;
+  @extend %text-regular;
+
+  h1 {
+    @extend %page-title;
+  }
+
+  & > p {
+    @extend %intro-text;
+  }
+
+  hr {
+    display: none;
+  }
+
+  ul {
+    @extend %list-layout;
+    @extend %display-column-1;
+
+    li {
+      span {
+        &[data-term] {
+          text-decoration: underline;
+        }
+
+        &[data-option] {
+          @extend %text-italic;
+        }
+      }
+    }
+  }
+
+  @include media-query(tablet) {
+    li {
+      flex: 1;
+      display: block;
+    }
+  }
+}

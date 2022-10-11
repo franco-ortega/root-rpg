@@ -23,16 +23,6 @@
     border-radius: 0.5rem;
   }
 
-  // padding for the children
-  p,
-  ul {
-    padding-left: 0.25rem;
-  }
-
-  span {
-    text-decoration: underline;
-  }
-
   @include media-query(tablet) {
     padding: 0.35rem;
     flex-basis: 4.5rem;
@@ -41,7 +31,7 @@
     grid-template-columns: 3fr 1fr 8fr;
     align-items: center;
 
-    // place first item in each row at the end of its column
+    // place first item in each row at the right edge of its column
     & > *:first-child {
       text-align: end;
       position: relative;
@@ -56,14 +46,6 @@
 
     h2 {
       font-size: 1.75rem;
-    }
-
-    ul {
-      padding: 0;
-
-      li {
-        // padding-left: 0.25rem;
-      }
     }
   }
 }

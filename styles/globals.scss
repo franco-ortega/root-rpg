@@ -1,3 +1,5 @@
+@use '../styles/scss/' as *;
+
 *,
 *::before,
 *::after {
@@ -11,12 +13,26 @@
 :root {
   --bgcolor-hue: 23;
   --bgcolor-sat: 63%;
-  --bgcolor-lit: 52%;
+  --bgcolor-lit: 55%;
   --bgcolor: var(--bgcolor-hue), var(--bgcolor-sat), var(--bgcolor-lit);
   --bgcolor-primary-opacity: 1;
   --bgcolor-primary: hsl(var(--bgcolor), var(--bgcolor-primary-opacity));
   --bgcolor-nav-opacity: 0.75;
   --bgcolor-nav: hsl(var(--bgcolor), var(--bgcolor-nav-opacity));
+
+  --list-max-width: min(40rem, 90%);
+  --list-margin-inline: auto;
+  --list-padding-top: 1rem;
+
+  --nav-font-size: 1.25rem;
+
+  --page-title-font: 'Emilys Candy';
+  --page-title-size: 2.5rem;
+  --page-title-spacing: 0.2rem;
+
+  @include media-query(tablet) {
+    --nav-font-size: 1.5rem;
+  }
 }
 
 html,

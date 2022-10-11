@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import RootArtwork from '../../public/images/root-capture.png';
+import RunawayImg from '../../public/images/root-runaway.png';
 import Nav from '../nav/Nav';
-import styles from './Header.module.css';
+import styles from './Header.module.scss';
 
 const Header = () => {
   return (
     <header className={styles.Header}>
       <div>
-        <Image src={RootArtwork} alt='' />
+        <Image src={RunawayImg} alt='' />
         <Nav />
       </div>
     </header>

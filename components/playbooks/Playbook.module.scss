@@ -1,0 +1,13 @@
+@use '../../styles/scss/' as *;
+
+.Playbook {
+  padding-left: 0.25rem;
+
+  span {
+    @extend %text-medium;
+  }
+
+  @include media-query(tablet) {
+    padding-left: 0rem;
+  }
+}
