@@ -24,3 +24,24 @@
   flex-direction: column;
   gap: 1rem;
 }
+
+%font-lora-regular {
+  font-family: var(--page-text-font);
+  font-weight: 400;
+}
+
+%font-lora-italic {
+  font-family: var(--page-text-font);
+  font-style: italic;
+  font-weight: 400;
+}
+
+%font-lora-medium {
+  font-family: var(--page-text-font);
+  font-weight: 500;
+}
+
+%font-lora-bold {
+  font-family: var(--page-text-font);
+  font-weight: 600;
+}

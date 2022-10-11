@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import RootArtwork from '../../public/images/root-capture.png';
 import Nav from '../nav/Nav';
-import styles from './Header.module.css';
+import styles from './Header.module.scss';
 
 const Header = () => {
   return (

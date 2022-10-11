@@ -25,6 +25,8 @@
   --page-title-font: 'Emilys Candy', cursive;
   --page-title-size: 2.5rem;
   --page-title-spacing: 0.2rem;
+
+  --page-text-font: 'Lora', serif;
 }
 
 html,
@@ -33,7 +35,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-  /* font-family: 'Emilys Candy', cursive; */
+  /* font-family: 'Lora', serif; */
 }
 
 a {

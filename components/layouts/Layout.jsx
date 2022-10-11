@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import Head from 'next/head';
 import Header from '../header/Header';
-import styles from './Layout.module.css';
+import styles from './Layout.module.scss';
 
 const Layout = ({ children }) => {
   return (
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
         <link
-          href='https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap'
           rel='stylesheet'
         />
       </Head>
