@@ -1,0 +1,13 @@
+@use '../../styles/scss/' as *;
+
+.Playbook {
+  padding-left: 0.25rem;
+
+  span {
+    text-decoration: underline;
+  }
+
+  @include media-query(tablet) {
+    padding-left: 0rem;
+  }
+}

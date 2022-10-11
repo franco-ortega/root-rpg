@@ -1,0 +1,9 @@
+@use '../../styles/scss/' as *;
+
+.Drive {
+  padding-left: 0.25rem;
+
+  @include media-query(tablet) {
+    padding-left: 0;
+  }
+}

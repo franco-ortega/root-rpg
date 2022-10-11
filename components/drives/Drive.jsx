@@ -1,9 +1,10 @@
 import TitleAndText from '../info/TitleAndText';
+import styles from './Drive.module.scss';
 
 const Drive = ({ title, text }) => {
   return (
     <TitleAndText title={title}>
-      <p>{text}</p>
+      <p className={styles.Drive}>{text}</p>
     </TitleAndText>
   );
 };
