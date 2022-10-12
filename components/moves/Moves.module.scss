@@ -29,18 +29,10 @@
     @extend %list-layout;
     @extend %display-column-1;
 
-    hr {
-      display: none;
-    }
-
     li {
       span {
         &[data-term] {
           @extend %text-bold;
-        }
-
-        &[data-option] {
-          @extend %text-italic;
         }
       }
     }
@@ -49,14 +41,6 @@
   @include media-query(tablet) {
     & > div {
       width: var(--list-max-width);
-    }
-
-    ul {
-      li {
-        flex: 1;
-        display: block;
-        padding: 0.75rem;
-      }
     }
   }
 }

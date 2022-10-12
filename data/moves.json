@@ -1,7 +1,7 @@
 [
   {
     "move": "Basic moves",
-    "text": "cover most interations with most people (NPCs and PCs), general items, and the immediate environment. There are 8 basic moves that everyone can use (attempt a roguish feat, figure someone out, persuade an NPC, read a tense situation, trick an NPC, trust fate, wreck something, help or interfere). However, the attempt a roguish feat move includes a selection of 9 options (acrobatics, blindside, counterfeit, disable device, hide, pick pocks, pickpocket, sleight of hand, sneak). Each vagabond will start the game with 1 - 4 roguish feats. Additionally, each playbook includes 6 unique moves, and each vagabond will begin with 3 of these."
+    "text": "cover most interations with most people (NPCs and PCs), general items, and the immediate environment. There are 8 basic moves that everyone can use (attempt a roguish feat, figure someone out, persuade an NPC, read a tense situation, trick an NPC, trust fate, wreck something, help or interfere). However, the \"attempt a roguish feat\" move includes a selection of 9 feats (acrobatics, blindside, counterfeit, disable device, hide, pick lock, pickpocket, sleight of hand, sneak). Each vagabond will start the game with 1 - 4 feats. Additionally, every playbook includes 6 unique moves, and each vagabond will begin with 3 of these."
   },
   {
     "move": "Weapon moves",
@@ -9,34 +9,14 @@
   },
   {
     "move": "Reputation moves",
-    "text": "can come into play when you meet or interact with a notable faction member or famous Denizen. Some reputation moves require a score of 2 or 3 reputation."
+    "text": "can come into play when you meet or interact with a notable faction member or famous Denizen. Some reputation moves require a high reputation score of 2 or 3."
   },
   {
-    "move": "Moves",
-    "text": "are vagabond actions and skills. A move is made when there is reasonable uncertainty about the success of an effort. A bird can fly into a tree without making a move, but it may require a move if it is flying into a tree to escape danger or chase someone. Some moves will be determined by the playbook, and others are chosen by the player. A vagabond may select an additional move as an advancement."
+    "move": "Travel moves",
+    "text": "are used to journey across the Woodland. Vagabonds may travel along a path or through the forest. A path provides a less arduous journey, but the forest can provide resources. Vagabonds must set a pace for their travel. Move slowly to gain benefits with an increased risk of danger, or move quickly to perhaps avoid danger but suffer exhaustion, or move at an average pace for a bit of both.."
   },
   {
-    "move": "Connections",
-    "text": "are the bonds with other vagabonds in the band. Each vagabond has two connections. These connections can both be with a single vagabond or spread across two vagabonds. Connections can be mutual or one-sided."
-  },
-  {
-    "move": "Reputation",
-    "text": "determines how a faction views a vagabond. Reputation is affected by prestige (positive) and notoriety (negative). Each vagabond begins with a reputation score of 0 for all factions, but they will have at least two points of prestige that can be applied to any faction and one point of notoriety that can also be applied to any faction (or even the same faction!). Each faction tracks its repuation separately. Every 5 prestige points or 3 notoriety points will increase or decrease reputation accordingly with the respective faction."
-  },
-  {
-    "move": "Factions",
-    "text": "are the power groups vying for control of the Woodland. The major groups are The Marquisate (cats), The Eyrie Dynasties (birds), and The Woodland Alliance (rodents). The minor groups (hoping to be major groups) are The Corvid Conspiracy (corvids), The Grand Duchy (moles), The Lizard Cult (lizards), and The Riverfolk Company (otters). Each faction is associated with a specific species or group of species, but members of all species can be found in every faction. Additionally, the everyday citizens of the Woodland are known collectively as The Denizens. Vagabonds may select among The Denizens, all major groups, and one minor group for their starting prestige and notoriety."
-  },
-  {
-    "move": "Harm",
-    "text": "is damage that directly affects a vagabond. There are three types of harm. Depletion reduces access to unlisted minor items that are usually on hand (rations, rope, torches, etc). Exhaustion reduces access to actions that take a notable amount of effort. Injury reduces access to being alive. Every harm track begins at 4. When the vagabond advances, one option is to increase one harm track by 1 (max 6)."
-  },
-  {
-    "move": "Wear",
-    "text": "is a separate type of damage that only applies to major items (weapons, armor, etc). Wear can result from proper use or a mishap. Wear will eventually cause an item to be destroyed, but repairs can delay this."
-  },
-  {
-    "move": "Value",
-    "text": "measures the wealth of a vagabond. Each vagabond starts with 6 - 11 value based on their playbook. Value is spent to select starting items, and the remainder can be used during the game in many ways, such as buying more items, recovering depletion, repairing wear, etc."
+    "move": "Session moves",
+    "text": "happen once at the end of every session. Each player may replace their nature, one drive, or one connection to reflect how their vagabond has changed or grown."
   }
 ]

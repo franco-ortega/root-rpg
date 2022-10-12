@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import FoxImg from '../../public/images/woodland-fox.png';
 import OtterImg from '../../public/images/woodland-otter.png';
-import TitleAndText from '../info/TitleAndText';
 import Term from '../info/Term';
 import terms from '../../data/terms.json';
 import styles from './Home.module.scss';
