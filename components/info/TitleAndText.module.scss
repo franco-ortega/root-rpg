@@ -8,7 +8,7 @@
 
   width: 100%;
   margin-inline: auto;
-  padding: 0.25rem;
+  padding: 0.5rem;
 
   overflow: hidden;
 
@@ -25,27 +25,26 @@
 
   @include media-query(tablet) {
     padding: 0.35rem;
-    flex-basis: 4.5rem;
+    // flex-basis: 4.75rem;
 
     display: grid;
     grid-template-columns: 3fr 1fr 8fr;
     align-items: center;
 
-    // place first item in each row at the right edge of its column
-    & > *:first-child {
-      text-align: end;
-      position: relative;
-      left: 15%;
+    h2 {
+      font-size: 1.75rem;
     }
 
     hr {
       transform: rotate(90deg);
       border: solid 0.05rem hsl(0, 0%, 0%, 0.75);
-      width: 140%;
+      width: 175%;
     }
 
-    h2 {
-      font-size: 1.75rem;
+    & > *:first-child {
+      text-align: end;
+      position: relative;
+      left: 20%;
     }
   }
 }

@@ -4,11 +4,34 @@
   @extend %page-layout;
   @extend %text-regular;
 
+  font-size: 1.1rem;
+
   h1 {
     @extend %page-title;
   }
 
   & > p {
     @extend %intro-text;
+  }
+
+  p + p {
+    font-size: 1rem;
+  }
+
+  & > div {
+    width: 90%;
+    margin-top: 0.5rem;
+    margin-inline: auto;
+
+    img {
+      border: 1px solid white !important;
+      border-radius: 0.5rem;
+    }
+  }
+
+  @include media-query(tablet) {
+    & > div {
+      width: var(--list-max-width);
+    }
   }
 }

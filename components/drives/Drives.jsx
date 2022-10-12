@@ -11,11 +11,11 @@ const Drives = () => {
         <Image src={RaccoonImg} alt='' />
         <div>
           <h1>Drives</h1>
-          <p>A vagabond selects two drives from their playbook.</p>
+          <p>The motivations for a vagabond.</p>
         </div>
         <Image src={RabbitImg} alt='' />
       </div>
-      <p>A vagabond selects two drives from their playbook.</p>
+      <p>The motivations for a vagabond.</p>
       <DrivesList />
     </div>
   );
