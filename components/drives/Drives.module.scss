@@ -4,6 +4,8 @@
   @extend %page-layout;
   @extend %text-regular;
 
+  font-size: 1.1rem;
+
   & > div {
     max-width: min(35rem, 70%);
     margin-inline: auto;
@@ -27,7 +29,7 @@
 
   & > p {
     @extend %intro-text;
-    width: 85%;
+    // width: 85%;
   }
 
   @include media-query(small) {

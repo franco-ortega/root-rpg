@@ -20,7 +20,7 @@
   --bgcolor-nav-opacity: 0.75;
   --bgcolor-nav: hsl(var(--bgcolor), var(--bgcolor-nav-opacity));
 
-  --list-max-width: min(40rem, 90%);
+  --list-max-width: min(60ch, 90%);
   --list-margin-inline: auto;
   --list-padding-top: 1rem;
 
@@ -31,7 +31,10 @@
   --page-title-spacing: 0.2rem;
 
   @include media-query(tablet) {
+    --bgcolor-nav-opacity: 0.85;
     --nav-font-size: 1.5rem;
+    --page-title-size: 3rem;
+    --page-title-spacing: 0.5rem;
   }
 }
 

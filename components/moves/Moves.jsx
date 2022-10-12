@@ -1,17 +1,16 @@
 import TitleAndText from '../info/TitleAndText';
+import Image from 'next/image';
+import TravelImg from '../../public/images/root-travel.jpg';
 import styles from './Moves.module.scss';
 
 const Moves = () => {
   return (
     <div className={styles.Moves}>
       <h1>Moves</h1>
-      <p>
-        There are several categories of moves, and each category has a wide
-        variety of specific moves within it. Some moves will be determined by
-        the playbook, and other moves are chosen by the player. As you advance,
-        you will be able to access and/or select new moves.
-      </p>
-
+      <p>This is how a vagabond gets shit done.</p>
+      <div>
+        <Image src={TravelImg} alt='' />
+      </div>
       <ul>
         <TitleAndText>
           <span data-term>Basic moves</span> cover most interations with most
@@ -53,17 +52,27 @@ const Moves = () => {
         </TitleAndText>
         <TitleAndText>
           <span data-term>Reputation moves</span> can come into play when you
-          meet or interact with a notable faction member or woodland citizen.
+          meet or interact with a notable faction member or Woodland citizen.
           Each vagabond will begin with a reputation score of 0 with all
           factions, but they will also have at least two points of prestige
           (positive) and one point of notoriety (negative) that can be applied
-          to any faction.
+          to any faction. Every 5 prestige points or 3 notoriety points with a
+          faction will respectively increase or decrease the reputation score
+          with that faction.
         </TitleAndText>
         <TitleAndText>
-          <span data-term>Travel moves</span>
+          <span data-term>Travel moves</span> are used to journey across the
+          Woodland. Vagabonds may travel along a path or through the forest. A
+          path provides a less arduous journey, but the forest can provide
+          resources. Vagabonds must set a pace for their travel. Move slowly to
+          gain benefits with an increased risk of danger, or move quickly to
+          perhaps avoid danger but suffer exhaustion, or move at an average pace
+          for a bit of both.
         </TitleAndText>
         <TitleAndText>
-          <span data-term>Session moves</span>
+          <span data-term>Session moves</span> happen once at the end of every
+          session. Each player may replace their nature, one drive, or one
+          connection to reflect how their vagabond has changed or grown.
         </TitleAndText>
       </ul>
     </div>

@@ -1,0 +1,42 @@
+[
+  {
+    "term": "Playbooks",
+    "text": "are vagabond character sheets. Each playbook contains different options for selecting a vagabond species, background, drives, nature, stats, moves, and relationships."
+  },
+  {
+    "term": "Drives",
+    "text": "are the motivations of a vagabond. Each vagabond selects two drives from their playbook. When a drive is completed, the vagabond gains an advancement. A vagabond can advance with each drive once per session."
+  },
+  {
+    "term": "Nature",
+    "text": "determines the disposition of a vagabond. A vagabond can try to follow their nature or to avoid it, but whenever they give in to their nature (for better or worse), they become reenergized."
+  },
+  {
+    "term": "Moves",
+    "text": "are vagabond actions and skills. A move is made when there is reasonable uncertainty about the success of an effort. A bird can fly into a tree without making a move, but it may require a move if it is flying into a tree to escape danger or chase someone. Some moves will be determined by the playbook, and others are chosen by the player. A vagabond may select an additional move as an advancement."
+  },
+  {
+    "term": "Connections",
+    "text": "are the bonds with other vagabonds in the band. Each vagabond has two connections. These connections can both be with a single vagabond or spread across two vagabonds. Connections can be mutual or one-sided."
+  },
+  {
+    "term": "Reputation",
+    "text": "determines how a faction views a vagabond. Reputation is affected by prestige (positive) and notoriety (negative). Each vagabond begins with a reputation score of 0 for all factions, but they will have at least two points of prestige that can be applied to any faction and one point of notoriety that can also be applied to any faction (or even the same faction!). Each faction tracks its repuation separately. Every 5 prestige points or 3 notoriety points will increase or decrease reputation accordingly with the respective faction."
+  },
+  {
+    "term": "Factions",
+    "text": "are the power groups vying for control of the Woodland. The major groups are The Marquisate (cats), The Eyrie Dynasties (birds), and The Woodland Alliance (rodents). The minor groups (hoping to be major groups) are The Corvid Conspiracy (corvids), The Grand Duchy (moles), The Lizard Cult (lizards), and The Riverfolk Company (otters). Each faction is associated with a specific species or group of species, but members of all species can be found in every faction. Additionally, the everyday citizens of the Woodland are known collectively as The Denizens. Vagabonds may select among The Denizens, all major groups, and one minor group for their starting prestige and notoriety."
+  },
+  {
+    "term": "Harm",
+    "text": "is damage that directly affects a vagabond. There are three types of harm. Depletion reduces access to unlisted minor items that are usually on hand (rations, rope, torches, etc). Exhaustion reduces access to actions that take a notable amount of effort. Injury reduces access to being alive. Every harm track begins at 4. When the vagabond advances, one option is to increase one harm track by 1 (max 6)."
+  },
+  {
+    "term": "Wear",
+    "text": "is a separate type of damage that only applies to major items (weapons, armor, etc). Wear can result from proper use or a mishap. Wear will eventually cause an item to be destroyed, but repairs can delay this."
+  },
+  {
+    "term": "Value",
+    "text": "measures the wealth of a vagabond. Each vagabond starts with 6 - 11 value based on their playbook. Value is spent to select starting items, and the remainder can be used during the game in many ways, such as buying more items, recovering depletion, repairing wear, etc."
+  }
+]

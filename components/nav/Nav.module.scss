@@ -33,5 +33,17 @@
   }
 
   @include media-query(tablet) {
+    ul:first-child {
+      top: 37%;
+      left: -22%;
+    }
+
+    ul:last-child {
+      right: -33%;
+      transform: translate(0%, 12%);
+
+      justify-items: start;
+      gap: 0.5rem;
+    }
   }
 }
