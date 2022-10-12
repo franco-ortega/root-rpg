@@ -7,53 +7,46 @@
     @extend %text-medium;
   }
 
-  span[data-nature] {
+  span[data-text] {
     text-decoration: underline;
-    padding: 0.25rem;
   }
 
-  span[data-nature]:hover {
-    background-color: black;
-    color: hsl(39, 100%, 50%, 0.9);
+  span[data-text='text-1'] {
+    margin-inline-end: 0.25rem;
+    padding-inline-end: 0.1rem;
+  }
 
+  span[data-text='text-2'] {
+    margin-inline-start: 0.25rem;
+    padding-inline: 0.1rem;
+  }
+
+  span[data-text]:hover {
+    outline: 0.1rem solid black;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
-    width: fit-content;
-    padding: 0.25rem;
-
-    transition: padding 500ms ease-in;
+    text-decoration: none;
   }
 
   span[data-hidden] {
     background-color: black;
-
     border-radius: 0.25rem;
     width: 20rem;
     padding: 0.5rem;
+    color: hsl(39, 100%, 50%, 0.93);
 
-    color: hsl(39, 100%, 50%, 0.9);
     display: none;
     position: absolute;
-
-    transition: all 500ms ease;
   }
 
-  span[data-hidden='hidden-1'] {
-  }
-
-  span[data-hidden='hidden-2'] {
-    // left: 40%;
-  }
-
-  span[data-nature]:hover {
+  span[data-text]:hover {
     & span[data-hidden] {
       display: block;
     }
   }
-  span[data-nature]:hover {
-    & span[data-hidden] {
-      display: block;
-    }
+
+  span[data-benefit] {
+    @extend %text-italic;
   }
 
   @include media-query(tablet) {
