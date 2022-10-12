@@ -8,7 +8,7 @@ const Moves = () => {
   return (
     <div className={styles.Moves}>
       <h1>Moves</h1>
-      <p>This is how a vagabond gets shit done.</p>
+      <p>How a vagabond gets shit done.</p>
       <div>
         <Image src={TravelImg} alt='' />
       </div>
