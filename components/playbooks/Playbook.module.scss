@@ -3,8 +3,56 @@
 .Playbook {
   padding-left: 0.25rem;
 
-  span {
+  span[data-title] {
     @extend %text-medium;
+  }
+
+  span[data-nature] {
+    text-decoration: underline;
+  }
+
+  span[data-nature]:hover {
+    background-color: black;
+    color: hsl(39, 100%, 50%, 0.9);
+
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    width: fit-content;
+    padding: 0.25rem;
+
+    transition: padding 500ms ease-in;
+  }
+
+  span[data-hidden] {
+    background-color: black;
+
+    border-radius: 0.25rem;
+    width: 20rem;
+    padding: 0.5rem;
+
+    color: hsl(39, 100%, 50%, 0.9);
+    display: none;
+    position: absolute;
+
+    transition: all 500ms ease;
+  }
+
+  span[data-hidden='hidden-1'] {
+  }
+
+  span[data-hidden='hidden-2'] {
+    // left: 40%;
+  }
+
+  span[data-nature]:hover {
+    & span[data-hidden] {
+      display: block;
+    }
+  }
+  span[data-nature]:hover {
+    & span[data-hidden] {
+      display: block;
+    }
   }
 
   @include media-query(tablet) {
