@@ -4,9 +4,6 @@
   background-color: hsl(39, 100%, 50%, 0.25);
   border: solid 0.1rem hsl(0, 0%, 0%);
   border-radius: 0.5rem;
-  padding: 0.5rem;
-
-  @include media-query(tablet) {
-    padding: 0.35rem;
-  }
+  padding-block: 0.75rem;
+  padding-inline: 0.75rem 0.5rem;
 }
