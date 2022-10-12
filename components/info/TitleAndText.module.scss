@@ -3,11 +3,8 @@
 .TitleAndText {
   border: solid 0.1rem black;
   border-radius: 0.5rem;
-
   background-color: hsl(39, 100%, 50%, 0.25);
 
-  width: 100%;
-  margin-inline: auto;
   padding: 0.5rem;
 
   overflow: hidden;
@@ -25,7 +22,6 @@
 
   @include media-query(tablet) {
     padding: 0.35rem;
-    // flex-basis: 4.75rem;
 
     display: grid;
     grid-template-columns: 3fr 1fr 8fr;
@@ -37,7 +33,6 @@
 
     hr {
       transform: rotate(90deg);
-      border: solid 0.05rem hsl(0, 0%, 0%, 0.75);
       width: 175%;
     }
 
