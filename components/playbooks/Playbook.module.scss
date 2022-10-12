@@ -29,6 +29,10 @@
     background-color: black;
     color: hsl(39, 100%, 50%, 0.93);
     text-decoration: none;
+
+    & span[data-hidden] {
+      display: block;
+    }
   }
 
   span[data-hidden] {
@@ -40,12 +44,6 @@
 
     display: none;
     position: absolute;
-  }
-
-  span[data-text]:hover {
-    & span[data-hidden] {
-      display: block;
-    }
   }
 
   span[data-benefit] {
