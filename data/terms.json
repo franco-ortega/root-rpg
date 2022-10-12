@@ -21,7 +21,7 @@
   },
   {
     "term": "Reputation",
-    "text": "determines how a faction views a vagabond. Reputation is affected by prestige (positive) and notoriety (negative). Each vagabond begins with a reputation score of 0 for all factions, but they will have at least two points of prestige that can be applied to any faction and one point of notoriety that can also be applied to any faction (or even the same faction!). Each faction tracks its repuation separately. Every 5 prestige points or 3 notoriety points will increase or decrease reputation accordingly with the respective faction."
+    "text": "determines how a faction views a vagabond. Reputation is affected by prestige (positive) and notoriety (negative). Each vagabond begins with a reputation score of 0 for all factions, but they will have at least two points of prestige that can be applied to any faction and one point of notoriety that can also be applied to any faction (or even the same faction!). Each faction tracks its repuation separately. Many points of prestige or notoriety are needed to change a reputation score, and this is often accomplished by helping or hindering a faction multiple times."
   },
   {
     "term": "Factions",

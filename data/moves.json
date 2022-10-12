@@ -1,0 +1,22 @@
+[
+  {
+    "move": "Basic moves",
+    "text": "cover most interations with most people (NPCs and PCs), general items, and the immediate environment. There are 8 basic moves that everyone can use (attempt a roguish feat, figure someone out, persuade an NPC, read a tense situation, trick an NPC, trust fate, wreck something, help or interfere). However, the \"attempt a roguish feat\" move includes a selection of 9 feats (acrobatics, blindside, counterfeit, disable device, hide, pick lock, pickpocket, sleight of hand, sneak). Each vagabond will start the game with 1 - 4 feats. Additionally, every playbook includes 6 unique moves, and each vagabond will begin with 3 of these."
+  },
+  {
+    "move": "Weapon moves",
+    "text": "are divided into basic weapon moves and weapon skill moves. All vagabonds have access to all the basic weapon moves (engage in melee, grapple an enemy, target someone). To use a particular weapon skill move, the vagabond must have the skill, must have a weapon that can benefit from the skill, and must be in a situation where the skill can be applied (e.g. you cannot disarm someone who does not have a weapon). Each vagabond begins with one weapon skill move based on their playbook."
+  },
+  {
+    "move": "Reputation moves",
+    "text": "can come into play when you meet or interact with a notable faction member or famous Denizen. Some reputation moves require a high reputation score of 2 or 3."
+  },
+  {
+    "move": "Travel moves",
+    "text": "are used to journey across the Woodland. Vagabonds may travel along a path or through the forest. A path provides a less arduous journey, but the forest can provide resources. Vagabonds must set a pace for their travel. Move slowly to gain benefits with an increased risk of danger, or move quickly to perhaps avoid danger but suffer exhaustion, or move at an average pace for a bit of both.."
+  },
+  {
+    "move": "Session moves",
+    "text": "happen once at the end of every session. Each player may replace their nature, one drive, or one connection to reflect how their vagabond has changed or grown."
+  }
+]
