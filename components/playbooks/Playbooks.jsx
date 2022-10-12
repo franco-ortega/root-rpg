@@ -7,8 +7,7 @@ const Playbooks = () => {
   return (
     <div className={styles.Playbooks}>
       <h1>Playbooks</h1>
-      <p>The vagabond character sheets.</p>
-      <p>(PDFs coming later this week)</p>
+      <p>Vagabond character sheets.</p>
       <div>
         <Image src={GambleImg} alt='' />
       </div>
