@@ -15,14 +15,14 @@ const Playbook = ({ character, drives, nature, connections }) => {
             {nature[0].title}
             <span data-hidden='hidden-1'>{nature[0].text}</span>
           </span>
-          ,{' '}
+          or
           <span data-nature='nature-2'>
             {nature[1].title}{' '}
             <span data-hidden='hidden-2'>{nature[1].text}</span>
           </span>
         </li>
         <li>
-          <span data-title>Connections</span>: {connections[0].title},{' '}
+          <span data-title>Connections</span>: {connections[0].title} and{' '}
           {connections[1].title}
         </li>
       </ul>
