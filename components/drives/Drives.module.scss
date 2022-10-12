@@ -29,7 +29,6 @@
 
   & > p {
     @extend %intro-text;
-    // width: 85%;
   }
 
   @include media-query(small) {
