@@ -3,9 +3,9 @@ import FoxImg from '../../public/images/woodland-fox.png';
 import OtterImg from '../../public/images/woodland-otter.png';
 import Term from '../info/Term';
 import terms from '../../data/terms.json';
+import Video from '../info/Video';
 import videos from '../../data/videos.json';
 import styles from './Home.module.scss';
-import Video from '../info/Video';
 
 const Home = () => {
   return (
