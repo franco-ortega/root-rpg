@@ -1,9 +1,9 @@
 import TitleAndText from '../info/TitleAndText';
 import styles from './Playbook.module.scss';
 
-const Playbook = ({ character, drives, nature, connections }) => {
+const Playbook = ({ character, drives, nature, connections, pdf }) => {
   return (
-    <TitleAndText title={character} pdf={'test'}>
+    <TitleAndText title={character} pdf={pdf}>
       <ul className={styles.Playbook}>
         <li>
           <span data-title>Drives (2)</span>: {drives[0].title},{' '}
