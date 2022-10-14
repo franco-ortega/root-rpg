@@ -9,31 +9,21 @@
 
   span[data-text] {
     text-decoration: underline;
-    padding-inline: 0.25rem;
-  }
-
-  span[data-connection] {
-    // text-decoration: underline;
-    // padding-inline: 0.25rem;
-    // background-color: aliceblue;
+    padding-inline: 0.2rem;
   }
 
   span[data-text='text-1'] {
-    margin-inline-end: 0.25rem;
-    padding-inline-end: 0.1rem;
+    margin-inline-end: 0.2rem;
+    padding-inline-end: 0.2rem;
   }
 
   span[data-text='text-2'] {
     margin-inline-start: 0.25rem;
-    padding-inline: 0.1rem;
+    padding-inline: 0.2rem;
   }
 
-  // span[data-text]:hover span[data-connection] {
-  //   padding-inline: 0rem;
-  // }
-
   span[data-text]:hover {
-    border: 0.1rem solid var(--hidden-text-border-color);
+    // border: 0.1rem solid var(--hidden-text-border-color);
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
 
