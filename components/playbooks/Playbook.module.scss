@@ -22,25 +22,37 @@
   }
 
   span[data-text]:hover {
-    outline: 0.1rem solid black;
+    outline: 0.1rem solid var(--hidden-text-border-color);
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
 
     background-color: black;
+    background-color: hsl(0, 59%, 40%);
     color: hsl(39, 100%, 50%, 0.93);
     text-decoration: none;
 
     & span[data-hidden] {
       display: block;
+      animation: fade-in 500ms ease-in;
+    }
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
     }
   }
 
   span[data-hidden] {
-    background-color: black;
+    background-color: hsl(0, 59%, 40%);
     border-radius: 0.25rem;
+    border: solid 0.1rem var(--hidden-text-border-color);
     width: max(20rem, 50%);
     padding: 0.5rem;
-    color: hsl(39, 100%, 50%, 0.93);
+    color: hsl(39, 100%, 50%);
 
     display: none;
     position: absolute;

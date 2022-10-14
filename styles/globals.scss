@@ -30,6 +30,8 @@
   --page-title-size: 2.5rem;
   --page-title-spacing: 0.2rem;
 
+  --hidden-text-border-color: hsl(0, 59%, 25%);
+
   @include media-query(tablet) {
     --bgcolor-nav-opacity: 0.85;
     --nav-font-size: 1.5rem;

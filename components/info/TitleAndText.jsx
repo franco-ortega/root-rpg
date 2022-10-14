@@ -5,11 +5,13 @@ const TitleAndText = ({ title, pdf, children }) => {
     <li className={styles.TitleAndText}>
       <div>
         <h2>{title}</h2>
-        {pdf && (
-          <a href={pdf} rel='noreferrer' target='_blank'>
-            PDF
-          </a>
-        )}
+        <div>
+          {pdf && (
+            <a href={pdf} rel='noreferrer' target='_blank'>
+              PDF
+            </a>
+          )}
+        </div>
       </div>
       <hr />
       {children}
