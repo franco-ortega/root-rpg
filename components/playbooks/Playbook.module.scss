@@ -9,6 +9,13 @@
 
   span[data-text] {
     text-decoration: underline;
+    padding-inline: 0.25rem;
+  }
+
+  span[data-connection] {
+    // text-decoration: underline;
+    // padding-inline: 0.25rem;
+    // background-color: aliceblue;
   }
 
   span[data-text='text-1'] {
@@ -21,12 +28,15 @@
     padding-inline: 0.1rem;
   }
 
+  // span[data-text]:hover span[data-connection] {
+  //   padding-inline: 0rem;
+  // }
+
   span[data-text]:hover {
-    outline: 0.1rem solid var(--hidden-text-border-color);
+    border: 0.1rem solid var(--hidden-text-border-color);
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
 
-    background-color: black;
     background-color: hsl(0, 59%, 40%);
     color: hsl(39, 100%, 50%, 0.93);
     text-decoration: none;

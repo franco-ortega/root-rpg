@@ -15,7 +15,7 @@ const Playbook = ({ character, drives, nature, connections, pdf }) => {
             {nature[0].title}
             <span data-hidden='hidden-1'>{nature[0].text}</span>
           </span>
-          or
+          <span data-connection>or</span>
           <span data-text='text-2'>
             {nature[1].title}
             <span data-hidden='hidden-2'>{nature[1].text}</span>
