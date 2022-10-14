@@ -44,10 +44,12 @@
 
     div {
       flex-direction: column;
-      align-items: center;
+      align-items: flex-end;
 
-      a {
-        margin: 0;
+      div {
+        a {
+          margin-top: 0.2rem;
+        }
       }
     }
 
