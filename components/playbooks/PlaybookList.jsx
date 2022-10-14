@@ -12,6 +12,7 @@ const PlaybookList = () => {
           drives={playbook.drives}
           nature={playbook.nature}
           connections={playbook.connections}
+          pdf={`playbooks/${playbook.pdf}`}
         />
       ))}
     </ul>

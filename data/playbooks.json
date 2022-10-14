@@ -1,6 +1,7 @@
 [
   {
     "character": "Adventurer",
+    "pdf": "Root-Playbook-Adventurer.pdf",
     "drives": [
       {
         "title": "Ambition",
@@ -44,6 +45,7 @@
   },
   {
     "character": "Arbiter",
+    "pdf": "Root-Playbook-Arbiter.pdf",
     "drives": [
       {
         "title": "Justice",
@@ -87,6 +89,7 @@
   },
   {
     "character": "Harrier",
+    "pdf": "Root-Playbook-Harrier.pdf",
     "drives": [
       {
         "title": "Crime",
@@ -130,6 +133,7 @@
   },
   {
     "character": "Ranger",
+    "pdf": "Root-Playbook-Ranger.pdf",
     "drives": [
       {
         "title": "Discovery",
@@ -173,6 +177,7 @@
   },
   {
     "character": "Ronin",
+    "pdf": "Root-Playbook-Ronin.pdf",
     "drives": [
       {
         "title": "Principles",
@@ -216,6 +221,7 @@
   },
   {
     "character": "Scoundrel",
+    "pdf": "Root-Playbook-Scoundrel.pdf",
     "drives": [
       {
         "title": "Chaos",
@@ -259,6 +265,7 @@
   },
   {
     "character": "Thief",
+    "pdf": "Root-Playbook-Thief.pdf",
     "drives": [
       {
         "title": "Freedom",
@@ -302,6 +309,7 @@
   },
   {
     "character": "Tinker",
+    "pdf": "Root-Playbook-Tinker.pdf",
     "drives": [
       {
         "title": "Greed",
@@ -345,6 +353,7 @@
   },
   {
     "character": "Vagrant",
+    "pdf": "Root-Playbook-Vagrant.pdf",
     "drives": [
       {
         "title": "Chaos",
