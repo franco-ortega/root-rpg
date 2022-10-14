@@ -3,7 +3,7 @@ import styles from './Playbook.module.scss';
 
 const Playbook = ({ character, drives, nature, connections }) => {
   return (
-    <TitleAndText title={character}>
+    <TitleAndText title={character} pdf={'test'}>
       <ul className={styles.Playbook}>
         <li>
           <span data-title>Drives (2)</span>: {drives[0].title},{' '}
